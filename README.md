@@ -1,6 +1,6 @@
 # 第２回エレクトロニクスシミュレーション研究会ソフトウェアコンテスト
 
-- [サンプルコード]()
+- [サンプルコード](https://colab.research.google.com/drive/1Ba0oYsf-H6dFXBSfE8u7OGI252mFewD6)
 - [解説記事](https://github.com/h403/EST2018/wiki/コンテスト-Wiki)
 - [質問箱](https://github.com/h403/EST2018/issues)
 
@@ -17,11 +17,13 @@
 
 **多段の理想伝送線路による広帯域整合回路の設計プログラムの開発**
 
-特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?W_i=Z_i/Z_0" />、中心周波数における電気長 <img src="https://latex.codecogs.com/gif.latex?\theta_i=\beta l_i" /> の理想伝送線路を多段接続することによって、負荷抵抗 <img src="https://latex.codecogs.com/gif.latex?R_L" /> と特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?Z_0" /> の給電線路とを広帯域整合する回路を設計するプログラムを作成せよ。プログラムへの入力は、入出力の変成比、線路接続段数、許容反射損失、要求帯域幅のいずれか、あるいは全部を与えるものとする。出力は、各段の伝送線路の特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?W_i" /> と中心周波数における電気長 <img src="https://latex.codecogs.com/gif.latex?\theta_i" /> を算出するものとする。
+特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?W_i=Z_i/Z_0" />、中心周波数における電気長 <img src="https://latex.codecogs.com/gif.latex?\theta_i=\beta_0 l_i" /> の理想伝送線路を多段接続することによって、負荷抵抗 <img src="https://latex.codecogs.com/gif.latex?R_L" /> と特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?Z_0" /> の給電線路とを広帯域整合する回路を設計するプログラムを作成せよ。プログラムへの入力は、入出力の変成比、線路接続段数、許容反射損失、要求帯域幅のいずれか、あるいは全部を与えるものとする。出力は、各段の伝送線路の特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?W_i" /> と中心周波数における電気長 <img src="https://latex.codecogs.com/gif.latex?\theta_i" /> を算出するものとする。
+
+FL+FH/2=1 帯域の中心周波数を1とした正規化周波数を用いよ。
 
 また、開発したプログラムを用いて以下の４つの仕様の変成器を設計せよ。
 
-- 仕様１：編成比 2 、帯域内許容反射損失 -20 dB以下、整合帯域幅 2.6 以上、段数 段以下（調整中）
+- 仕様１：編成比 2 、帯域内許容反射損失 -20 dB以下、整合帯域幅 5.7 以上、段数 6 段以下
 - 仕様２：（調整中）
 - 仕様３：（調整中）
 - 仕様４（審査会にてデモンストレーション）：審査会場にて指示
