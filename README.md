@@ -17,9 +17,9 @@
 
 **多段の理想伝送線路による広帯域整合回路の設計プログラムの開発**
 
-特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?W_i=Z_i/Z_0" />、中心周波数における電気長 <img src="https://latex.codecogs.com/gif.latex?\theta_i=\beta_0 l_i" /> の理想伝送線路を多段接続することによって、負荷抵抗 <img src="https://latex.codecogs.com/gif.latex?R_L" /> と特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?Z_0" /> の給電線路とを広帯域整合する回路を設計するプログラムを作成せよ。プログラムへの入力は、入出力の変成比、線路接続段数、許容反射損失、要求帯域幅のいずれか、あるいは全部を与えるものとする。出力は、各段の伝送線路の特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?W_i" /> と中心周波数における電気長 <img src="https://latex.codecogs.com/gif.latex?\theta_i" /> を算出するものとする。
+特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?W_i=Z_i/Z_0" />、中心周波数における電気長 <img src="https://latex.codecogs.com/gif.latex?\theta_i=\beta_0l_i" /> の理想伝送線路を多段接続することによって、負荷抵抗 <img src="https://latex.codecogs.com/gif.latex?R_L" /> と特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?Z_0" /> の給電線路とを広帯域整合する回路を設計するプログラムを作成せよ。プログラムへの入力は、入出力の変成比、線路接続段数、許容反射損失、要求帯域幅のいずれか、あるいは全部を与えるものとする。出力は、各段の伝送線路の特性インピーダンス <img src="https://latex.codecogs.com/gif.latex?W_i" /> と中心周波数における電気長 <img src="https://latex.codecogs.com/gif.latex?\theta_i" /> を算出するものとする。
 
-FL+FH/2=1 帯域の中心周波数を1とした正規化周波数を用いよ。
+帯域の中心周波数を1とした正規化周波数 <img src="https://latex.codecogs.com/gif.latex?(F_L+F_H)/2=1" /> を用いよ。
 
 また、開発したプログラムを用いて以下の４つの仕様の変成器を設計せよ。
 
@@ -36,9 +36,9 @@ FL+FH/2=1 帯域の中心周波数を1とした正規化周波数を用いよ。
 後述する基準帯域 RBW の達成度 BW / RBW x 100 [points] を設計スコアとする。ただし、設計仕様が満たされていない場合には、無条件でその仕様の設計スコアは 0 となる。仕様１〜４の設計スコアの合計が審査チームの設計スコア得点となる。基準帯域は段数によって異なり、多段になるほど広帯域となるので、高得点を得るためにはできるだけ少ない段数で仕様を満足する設計を見つける必要がある。
 
 #### 基準帯域の計算式
-目標バンド幅 <img src="https://latex.codecogs.com/gif.latex?B = f_H / f_L" /> への達成率で評価する
+目標バンド幅 <img src="https://latex.codecogs.com/gif.latex?B=f_H/f_L" /> への達成率で評価する
 
-<img src="https://latex.codecogs.com/gif.latex?B=\pi/\theta_m - 1" />
+<img src="https://latex.codecogs.com/gif.latex?B=\pi/\theta_m-1" />
 
 <img src="https://latex.codecogs.com/gif.latex?\left|T_N\left(\frac{1}{\cos\theta_m}\right)\right|^{-2}=4\frac{R}{(R-1)^2}\frac{\Gamma_{\textrm{max}}^2}{(1-\Gamma_{\textrm{max}}^2)}" />
 
