@@ -40,7 +40,7 @@
 
 - 日時：2019年3月18日 13:00〜18:00（予定）
 - 場所：[東京都市大学夢キャンパス](http://yumecampus.tcu.ac.jp)
-- [開催プログラム](https://github.com/h403/EST2018/wiki/審査会)
+- [審査会プログラム](https://github.com/h403/EST2018/wiki/審査会)
 
 ## ガイダンス
 
